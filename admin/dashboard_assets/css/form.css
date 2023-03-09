@@ -1,0 +1,88 @@
+.page-content {
+    width:100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg,rgb(230, 230, 230),white);
+
+}
+.auth-card {
+    background: white;
+    box-shadow:0 3px 12px rgba(0 0 0 / 0.2);
+    border-radius: 20px;
+    padding:10px 10%;
+    margin-top: 10px;
+}
+.logo-area {
+  padding:10px 30%;
+  margin-top: 10px;
+
+}
+.logo {
+  width: 100%;
+  height: auto;
+}
+.auth-title {
+    text-align:center;
+    color:rgba(46, 46, 46);
+
+}
+.service-btn {
+    background-color: white;
+    border: 1px solid rgb(220,220,220);
+    width:100%;
+    height: 40px;
+    color:rgba(46, 46, 46);
+    box-shadow: none !important;
+
+}
+.service-btn:hover {
+    color:#1da19b;
+    border: 1px solid #1da19b;
+}
+.service-icon {
+      margin-right: 10px;
+
+}
+.separator {
+    color: rgb(46, 46, 46);
+}
+.auth-input {
+    background:rgb(131, 122, 122);
+    height: 45px;
+    border: 1px solid rgb(220,220,220);
+    color: rgb(46, 46, 46);
+    box-shadow: none !important;
+    border-radius: 8px !important;
+}
+
+.auth-input:focus {
+    color: #1da19b;
+    border: 1px solid #1da19b;
+
+}
+.input-info-text {
+    color: rgb(138,138,138);
+}
+.auth-btn {
+    background: #45a29e;
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    box-shadow: none !important;
+}
+.auth-btn:hover {
+    background: #24726e;
+    color: white;
+}
+.text {
+  text-align: center;
+  color: rgb(46, 46, 46);
+
+}
+.text-link {
+    color: #45a29e;
+    cursor: pointer;
+
+}
+.text-link:hover {
+    color: #24726e;
+}

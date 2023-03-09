@@ -1,0 +1,57 @@
+    .upload {
+      width: 140px;
+      position: relative;
+      margin: auto;
+      text-align: center;
+    
+    }
+    .upload img {
+      width: 125px;
+      height: 125px;
+      border: 8px solid #DCDCDC;
+      border-radius: 50%;
+
+    }
+    .rightRound {
+      position: absolute;
+      width:32px;
+      height:32px;
+      right:0;
+      bottom:0;
+      background: #00B4FF;
+      line-height: 33px;
+      text-aligh: center;
+      border-radius:50%;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .leftRound {
+      position: absolute;
+      width:32px;
+      height:32px;
+      left:0;
+      bottom:0;
+      background: red;
+      line-height: 33px;
+      text-aligh: center;
+      border-radius:50%;
+      overflow: hidden;
+      cursor: pointer;
+    
+    }
+    .upload .fa {
+      color: white;
+    }
+    .upload input {
+      position: absolute;
+      transform: scale(2);
+      opacity: 0;
+    }
+    .upload input::-webkit-file-upload-button, .upload input[type=submit] {
+      cursor: pointer;
+    }
+    h3 .title-text {
+    text-align: center !important;
+    margin-top: 10px;
+    font-weight: 600;
+    }
